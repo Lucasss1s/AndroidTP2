@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color"
+    tools:context=".AdminActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panel de Administración"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_color"
+        android:gravity="center"
+        android:layout_marginBottom="120dp"
+        android:layout_marginTop="50dp" />
+
+
+    <Button
+        android:id="@+id/crear_usuario_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Usuario"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/actualizar_usuario_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Usuario"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/secondary_color"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/eliminar_usuario_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Usuario"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/alert_color"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/mostrar_usuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Usuarios"
+        android:backgroundTint="@color/neutral_color"
+        android:textColor="@color/primary_text_color"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/cerrar_sesion_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/error_color"
+        android:text="Cerrar Sesión"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"/>
+
+</LinearLayout>

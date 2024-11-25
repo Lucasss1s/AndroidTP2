@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/popup_background">
+
+    <EditText
+        android:id="@+id/popup_buscar_email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email del usuario a actualizar" />
+
+    <Button
+        android:id="@+id/popup_buscar_email_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Usuario"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/popup_actualizar_email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo Email" />
+
+    <EditText
+        android:id="@+id/popup_actualizar_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nueva Contraseña"
+        android:inputType="textPassword" />
+
+    <Spinner
+        android:id="@+id/popup_actualizar_rol_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo Rol" />
+
+    <Button
+        android:id="@+id/popup_actualizar_usuario_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Usuario"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/popup_actualizar_cancelar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
