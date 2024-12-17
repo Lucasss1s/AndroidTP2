@@ -5,4 +5,7 @@
         <item>Empleado</item>
         <item>Admin</item>
     </string-array>
+
+    <string name="registro_text">No te registraste? <font color='#1E88E5'>Registro</font></string>
+    <string name="ingreso_text">Ya estas registrado? <font color='#1E88E5'>Ingresar</font></string>
 </resources>

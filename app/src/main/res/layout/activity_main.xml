@@ -25,7 +25,8 @@
 
     <Button
         android:id="@+id/registrar_entrada"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="Registrar Entrada"
@@ -34,7 +35,8 @@
 
     <Button
         android:id="@+id/finalizar_asistencia"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="Finalizar Asistencia"
         android:layout_marginBottom="16dp"
@@ -43,7 +45,8 @@
 
     <Button
         android:id="@+id/ver_historial"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="Ver Historial"
         android:backgroundTint="@color/neutral_color"
@@ -63,12 +66,14 @@
 
     <Button
         android:id="@+id/cerrar_sesion_empleado"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="Cerrar sesion"
         android:textColor="@android:color/white"
         android:elevation="4dp"
         android:backgroundTint="@color/error_color"/>
+
 
 
 </LinearLayout>

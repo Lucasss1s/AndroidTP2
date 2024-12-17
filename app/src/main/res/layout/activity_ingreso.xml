@@ -7,7 +7,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".IngresoActivity">
+    tools:context=".IngresoActivity"
+    android:background="#202732">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,18 +22,28 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="210dp"
+                android:layout_marginTop="60dp"
                 android:orientation="vertical"
                 android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/logogestor" />
 
                 <EditText
                     android:id="@+id/ingreso_email"
                     android:layout_width="350dp"
                     android:layout_height="60dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="70dp"
                     android:drawableLeft="@android:drawable/ic_dialog_email"
                     android:drawablePadding="8dp"
                     android:hint="Email"
+                    android:backgroundTint="@color/white"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/white"
                     android:padding="8dp" />
 
                 <EditText
@@ -43,6 +54,10 @@
                     android:drawableLeft="@android:drawable/ic_lock_idle_lock"
                     android:drawablePadding="8dp"
                     android:hint="Contraseña"
+                    android:backgroundTint="@color/white"
+                    android:textColorHint="@color/gray"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
                     android:padding="8dp" />
 
 
@@ -53,6 +68,7 @@
                     android:layout_marginTop="30dp"
                     android:text="Ingresar"
                     android:textSize="18sp"
+                    android:backgroundTint="@color/material_dynamic_primary60"
                     app:cornerRadius="30dp" />
 
                 <TextView
@@ -61,12 +77,12 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:padding="8dp"
-                    android:text="No te registraste? Registro"
+                    android:text="@string/registro_text"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
 
 
             </LinearLayout>
-
 
         </LinearLayout>
 
