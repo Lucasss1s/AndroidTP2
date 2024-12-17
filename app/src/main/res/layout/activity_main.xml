@@ -8,7 +8,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#FFFEF0">
 
 
     <TextView
@@ -25,43 +26,47 @@
 
     <Button
         android:id="@+id/registrar_entrada"
-        android:layout_width="200dp"
+        android:layout_width="260dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="Registrar Entrada"
+        android:drawableRight="@drawable/baseline_add_task_24"
         android:backgroundTint="@color/primary_color"
         android:elevation="4dp" />
 
     <Button
         android:id="@+id/finalizar_asistencia"
-        android:layout_width="200dp"
+        android:layout_width="260dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="Finalizar Asistencia"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/alert_color"
+        android:drawableRight="@drawable/baseline_keyboard_backspace_24"
+        android:backgroundTint="@color/primary_color"
         android:elevation="4dp"/>
 
     <Button
         android:id="@+id/ver_historial"
-        android:layout_width="200dp"
+        android:layout_width="260dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="Ver Historial"
-        android:backgroundTint="@color/neutral_color"
-        android:textColor="@color/primary_text_color"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="@color/white"
+        android:drawableRight="@drawable/baseline_history_24"
         android:layout_marginBottom="16dp"
         android:elevation="4dp" />
 
     <Button
         android:id="@+id/revertir_asistencia"
-        android:layout_width="wrap_content"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:elevation="4dp"
         android:enabled="false"
         android:text="Revertir asistencia de hoy"
+        android:drawableRight="@drawable/baseline_autorenew_24"
         android:layout_gravity="center_horizontal"/>
 
     <Button
@@ -72,7 +77,9 @@
         android:text="Cerrar sesion"
         android:textColor="@android:color/white"
         android:elevation="4dp"
-        android:backgroundTint="@color/error_color"/>
+        android:drawableRight="@drawable/baseline_logout_24"
+        android:backgroundTint="@color/error_color"
+        android:layout_marginTop="70dp"/>
 
 
 

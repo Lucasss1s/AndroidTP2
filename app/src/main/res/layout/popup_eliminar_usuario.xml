@@ -33,6 +33,7 @@
         android:id="@+id/popup_eliminar_usuario_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/error_color"
         android:text="Eliminar Usuario" />
 
     <Button
@@ -40,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cancelar"
+        android:backgroundTint="@color/design_default_color_primary"
         android:layout_marginBottom="8dp"/>
 
 </LinearLayout>

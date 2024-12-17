@@ -6,8 +6,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@color/background_color"
-    tools:context=".AdminActivity">
+    tools:context=".AdminActivity"
+    android:background="#FFFEF0">
 
     <TextView
         android:layout_width="match_parent"
@@ -17,57 +17,68 @@
         android:textStyle="bold"
         android:textColor="@color/primary_color"
         android:gravity="center"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="110dp"
         android:layout_marginTop="50dp" />
 
 
     <Button
         android:id="@+id/crear_usuario_btn"
-        android:layout_width="match_parent"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:text="Crear Usuario"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@color/primary_color"
         android:textColor="@android:color/white"
+        android:drawableRight="@drawable/baseline_add_24"
+        android:layout_gravity="center"
         android:elevation="4dp" />
 
     <Button
         android:id="@+id/actualizar_usuario_btn"
-        android:layout_width="match_parent"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:text="Actualizar Usuario"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/secondary_color"
+        android:backgroundTint="@color/primary_color"
+        android:drawableRight="@drawable/baseline_update_24"
         android:textColor="@android:color/white"
+        android:layout_gravity="center"
         android:elevation="4dp" />
 
     <Button
         android:id="@+id/eliminar_usuario_btn"
-        android:layout_width="match_parent"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:text="Eliminar Usuario"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/alert_color"
+        android:backgroundTint="@color/primary_color"
         android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:drawableRight="@drawable/baseline_delete_24"
         android:elevation="4dp" />
 
     <Button
         android:id="@+id/mostrar_usuarios"
-        android:layout_width="match_parent"
+        android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:text="Mostrar Usuarios"
         android:backgroundTint="@color/neutral_color"
         android:textColor="@color/primary_text_color"
         android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:drawableRight="@drawable/baseline_history_24"
         android:elevation="4dp" />
 
     <Button
         android:id="@+id/cerrar_sesion_admin"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/error_color"
+        android:layout_gravity="center"
         android:text="Cerrar Sesión"
         android:textColor="@android:color/white"
-        android:elevation="4dp"/>
+        android:drawableRight="@drawable/baseline_logout_24"
+        android:elevation="4dp"
+        android:layout_marginTop="60dp"/>
 
 </LinearLayout>

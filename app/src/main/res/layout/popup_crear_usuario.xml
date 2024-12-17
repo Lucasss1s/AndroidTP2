@@ -29,12 +29,14 @@
         android:id="@+id/popup_crear_usuario_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Crear Usuario" />
+        android:text="Crear Usuario"
+        android:backgroundTint="@color/secondary_color"/>
 
     <Button
         android:id="@+id/popup_cancelar_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cancelar"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/design_default_color_primary" />
 </LinearLayout>

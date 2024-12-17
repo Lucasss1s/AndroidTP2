@@ -8,4 +8,6 @@
 
     <string name="registro_text">No te registraste? <font color='#1E88E5'>Registro</font></string>
     <string name="ingreso_text">Ya estas registrado? <font color='#1E88E5'>Ingresar</font></string>
+    <string name="abrir_nav">Abrir Navegador Drawer</string>
+    <string name="cerrar_nav">Cerrar Navegador Drawer</string>
 </resources>

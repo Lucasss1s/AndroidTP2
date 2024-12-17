@@ -18,7 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Buscar Usuario"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/popup_actualizar_email_input"
@@ -44,12 +45,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Actualizar Usuario"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/secondary_color"/>
 
     <Button
         android:id="@+id/popup_actualizar_cancelar_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cancelar"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/design_default_color_primary"/>
 </LinearLayout>
